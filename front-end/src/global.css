@@ -1,0 +1,26 @@
+:root {
+    --gray-100: #f5f5f5;
+    --gray-200: #e5e5e5;
+    --gray-300: #d6d3d1;
+    --gray-400: #a8a29e;
+    --gray-500: #737373;
+    --gray-600: #525252;
+
+    --yellow-100: #F9ED32;
+    --yellow-200: #F2D335;
+    --yellow-300: #D9BD32;
+
+    --black: #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', serif;
+    background-color: var(--gray-100);
+}
+

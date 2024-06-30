@@ -1,0 +1,12 @@
+const headers = {
+            "content-type": "application/json"
+        }
+
+        return await fetch("http://localhost:3000/sign-up", {
+            method: 'POST',
+            headers: headers,
+            body: console.log(JSON.stringify(formValue))
+        })
+        .then((response) => console.log(response))
+
+    }
